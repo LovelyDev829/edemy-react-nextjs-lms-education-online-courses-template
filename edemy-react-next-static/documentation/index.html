@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>eDemy - React Next.js Education LMS Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#change_layout" title="Change Default Home Page">Change Default Home Page</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+                <li><a href="#run_scss_file" title="Color Change Option">SCSS File</a></li>
+				<li><a href="#Contact_Form_Setup" title="Fonts">Contact Form Setup</a></li>
+                <li><a href="#preloader_hide" title="Preloader">Preloader</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+ 
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>eDemy - React</strong> Documentation</h1>
+                </div>
+            </div> 
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Introduction</h3>
+                    </div>
+
+                    <p>eDemy is a React, Next.js and Bootstrap 5 based Multipurpose templates. This has been built with React, ES6+ and as framework Next.js! eDemy is a creative responsive template purposely designed and built for Online Courses & Education React Next Template.</p>
+                </section>
+			 
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        To kickstart the development of the web app with eDemy, at first need to setup the react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
+                        </p>
+                    </ul>
+                    
+                    <div class="page-header">
+                        <h3>Preparation</h3>
+                    </div>
+
+                    <p>
+                        You'll need to install <a href="https://nodejs.org/en/" target="_blank">Node.js >=v16.14+ (Recommended Version)</a> (NPM comes along with it) and serve (an NPM package)
+                    </p>
+
+                    <p>Use command line tool i.e. PowerShell or terminal and navigate to the project(eDemy) root. This is PowerShell in windows and terminal on mac/linux.</p>
+
+                    <strong>Let's have a look on the setup process:</strong> <br>
+                    <p>Use terminal and navigate to the project root.</p>
+                    <p>Then run : <code class="language-markup">npm install</code></p>
+                    <p>Then run : <code class="language-markup">npm run dev</code></p>
+                    <p>It'll return something like this in the console:</p>
+                    <p>> project@1.8.0 dev drive:\project</p>
+                    <p>> next</p>
+                    <p>[ wait ] starting the development server ...</p>
+                    <p>[ ready ] started server on http://localhost:3000 ...</p>
+                    <p>[ event ] compiled successfully</p>
+                    <p>Now, in the browser go to <a href="http://localhost:3000/">localhost:3000</a></p>
+					
+                    <div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+                    <p>Run : <code class="language-markup">npm run build</code></p>
+                    <p>Then Run : <code class="language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+                </section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"></div>
+					<ul>
+						<li>Home 1 (eLearning School) (<b>/pages/index.js</b>)</li>
+						<li>Home 2 (Vendor Certification Training) (<b>/pages/index2.js</b>)</li>
+						<li>Home 3 (Online Training School) (<b>/pages/index3.js</b>)</li>
+						<li>Home 4 (Distance Learning) (<b>/pages/index4.js</b>)</li>
+						<li>Home 5 (Language School) (<b>/pages/index5.js</b>)</li>
+						<li>Home 6 (Modern Schooling) (<b>/pages/index6.js</b>)</li>
+						<li>Home 7 (Yoga Training) (<b>/pages/index7.js</b>)</li>
+						<li>Home 8 (Health Coaching) (<b>/pages/index8.js</b>)</li>
+						<li>Home 9 (Kindergaten) (<b>/pages/index9.js</b>)</li>
+						<li>About Page 1 (<b>/pages/about-1.js</b>)</li>
+						<li>About Page 2 (<b>/pages/about-2.js</b>)</li>
+						<li>About Page 3 (<b>/pages/about-3.js</b>)</li>
+						<li>Courses Page 1 (<b>/pages/courses-1.js</b>)</li>
+						<li>Courses Page 2 (<b>/pages/courses-2.js</b>)</li>
+						<li>Courses Page 3 (<b>/pages/courses-2.js</b>)</li>
+						<li>Courses Page 4 (<b>/pages/courses-4.js</b>)</li>
+						<li>Courses Page 5 (<b>/pages/courses-5.js</b>)</li>
+						<li>Courses Page 6 (<b>/pages/courses-6.js</b>)</li>
+						<li>Etc....</li>
+					</ul>
+		
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+                        <li>Navbar (<b>/components/_App/Navbar.js</b>)</li>
+                        <li>Layout (<b>/components/_App/Layout.js</b>)</li>
+                        <li>Footer (<b>/components/_App/Footer.js</b>)</li>
+						<li>GoTop (<b>/components/_App/GoTop.js</b>)</li>
+						<li>Course Advisor (<b>/components/Commom/CourseAdvisor.js</b>)</li> 
+						<li>Courses Area Style Two (<b>/components/Commom/CoursesAreaStyleTwo.js</b>)</li> 
+						<li>Features (<b>/components/Commom/Features.js</b>)</li> 
+						<li>Fun Facts (<b>/components/Commom/FunFacts.js</b>)</li> 
+						<li>Fun Facts Three (<b>/components/Commom/FunFactsThree.js</b>)</li> 
+						<li>Fun Facts Two (<b>/components/Commom/FunFactsTwo.js</b>)</li> 
+						<li>Latest News (<b>/components/Commom/LatestNews.js</b>)</li> 
+						<li>Latest News Two (<b>/components/Commom/LatestNewsTwo.js</b>)</li> 
+						<li>Page Banner (<b>/components/Commom/PageBanner.js</b>)</li> 
+						<li>Partner (<b>/components/Commom/Partner.js</b>)</li> 
+						<li>Partner Style Two (<b>/components/Commom/PartnerStyleTwo.js</b>)</li> 
+						<li>Premium Access (<b>/components/Commom/PremiumAccess.js</b>)</li> 
+						<li>Premium Access Two (<b>/components/Commom/PremiumAccessTwo.js</b>)</li> 
+						<li>Subscribe Form (<b>/components/Commom/SubscribeForm.js</b>)</li> 
+						<li>Testimonials (<b>/components/Commom/Testimonials.js</b>)</li> 
+					</ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the eDemy React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+	"axios": "^0.21.4",
+    "next": "^12.3.1",
+    "nodemailer": "^6.9.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.2.0",
+    "react-modal-video": "^2.0.0",
+    "react-tabs": "^6.0.0",
+    "sass": "^1.41.0",
+    "sweetalert2": "^11.7.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^9.1.0"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+				 
+                <section id="change_layout">
+                    <div class="page-header">
+                        <h3>Change Default Home Page</h3>
+                    </div>
+                    <p>The default home page is <code class="language-markup">index.js</code> which placed in <code class="language-markup">/pages/index.js</code> if you want to change this default to home page two as default home then just take backup your <code class="language-markup">index.js</code> & make <code class="language-markup">home-two.js</code> to <code class="language-markup">index.js</code> & that is.</p>
+                </section>
+	  
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts Used</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Oswald & Open Sans</strong> font from Google Web Font Services, you can change the font with the one that suits you best. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p></p>
+                    <p>You will find the font code in the &quot;<strong>style.scss</strong> file: <code class="language-css">styles/style.scss</code></p>
+                    <pre class="line-numbers">
+<code class="language-css">
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family: 'Nunito', sans-serif;
+$font-family2: 'Playfair Display', serif;
+</code>
+                    </pre>
+					<p><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+				 
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+                    
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+				
+				<section id="Contact_Form_Setup">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">Contact Form Setup</h3>
+                    </div>
+                    <p>
+						Please create the SendGrid API key follow the below link: <br>
+						
+						<a href="https://sendgrid.com/docs/ui/account-and-settings/api-keys/" target="_blank">https://sendgrid.com/docs/ui/account-and-settings/api-keys/</a>
+					</p>
+				 
+                    <p>Please follow the screenshot instruction file path: pages/api/contact.js</p>
+					
+					<img src="img/email.png" > 
+					<br>
+					<br>
+					<img src="img/baseUrl.png" >
+                </section>
+				
+				<section id="preloader_hide">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">How to off Preloader</h3>
+                    </div>
+                    <p>Please remove or comment the below code file path: components/_App/Layout.js</p>
+					<img src="img/loader.png"> 
+                </section>
+                
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <strong>Images</strong><br>
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="https://burst.shopify.com/" target="_blank">Burst</a><br />
+                    <a href="https://www.freepik.com/" target="_blank">Freepick</a><br />
+                    <div class="height-15"></div>
+                    <strong>Packages</strong><br>
+                    <a href="https://www.npmjs.com/package/react" target="_blank">React</a><br />
+                    <a href="https://www.npmjs.com/package/next" target="_blank">Next.js</a><br />
+                    <a href="https://www.npmjs.com/package/react-dom" target="_blank">ReactDom</a><br />
+                    <a href="https://getbootstrap.com/docs/4.3/getting-started/download/#npm" target="_blank">Bootstrap</a><br />
+                    <a href="https://www.npmjs.com/package/es6-promise" target="_blank">ES6-Promise</a><br />
+                    <a href="https://www.npmjs.com/package/react-modal-video" target="_blank">react-modal-video</a><br />
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br />
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
+                    </div>
+					 
+					<p>Quick, Dedicated & Professional Support!</p>
+					
+					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_blank">EnvyTheme Support System</a>.</p>
+					
+					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2023. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="https://support.envytheme.com/" target="_blank">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+	"development": {
+		"username": "Update here username",
+		"password": "Update here password",
+		"database": "edemy_app_development",
+		"host": "127.0.0.1",
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "Update here username",
+		"password": "Update here password",
+		"database": "edemy_database_test",
+		"host": "127.0.0.1",
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "Update here username",
+		"password": "Update here password",
+		"database": "Update here database",
+		"host": "127.0.0.1",
+		"dialect": "postgres"
+	}
+}

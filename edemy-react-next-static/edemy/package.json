@@ -1,0 +1,29 @@
+{
+	"name": "edemy",
+	"version": "1.8.0",
+	"description": "eDemy - React Next.js Education LMS Template",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"author": "EnvyTheme.com",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.4",
+		"next": "^12.3.1",
+		"nodemailer": "^6.9.1",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"react": "^18.2.0",
+		"react-18-image-lightbox": "^5.1.4",
+		"react-accessible-accordion": "^5.0.0",
+		"react-dom": "^18.2.0",
+		"react-modal-video": "^2.0.0",
+		"react-tabs": "^6.0.0",
+		"sass": "^1.41.0",
+		"sweetalert2": "^11.7.3",
+		"sweetalert2-react-content": "^5.0.7",
+		"swiper": "^9.1.0"
+	}
+}
